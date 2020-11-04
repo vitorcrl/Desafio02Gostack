@@ -27,6 +27,12 @@ const [repositories, setRepositories] = useState([]);
   });
 
   async function handleRemoveRepository(id) {
+  await api.delete(`repositories/${id}`);
+
+setRepositories(repositories.filter((
+  repository) => repository.id!== id
+))
+
   }
 
   return (
@@ -36,7 +42,7 @@ const [repositories, setRepositories] = useState([]);
           <li key={repository.id}>
              {repository.title}
 
-          <button onClick={() => handleRemoveRepository(1)}>
+          <button onClick={() => handleRemoveRepository(repository.id)}>
             Remover
           </button>
          </li>
