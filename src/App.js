@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import api from "./services/api";
-export default App;
+
 import "./styles.css";
 
 
@@ -9,8 +9,8 @@ function App() {
 const [repositories, setRepositories] = useState([]);
 
   useEffect(() =>{
-    api.get('repository').then(response=> {
-      setRepository(response.data)
+    api.get('/repositories').then(response=> {
+      setRepositories(response.data)
     });
   },[]);
 
@@ -22,7 +22,7 @@ const [repositories, setRepositories] = useState([]);
     })
     setRepositories([...repositories, response.data])
   }
- api.post('repository',{
+ api.post('/repositories',{
       title:`Novo  ${Date.now()}`,
   });
 
@@ -35,6 +35,7 @@ const [repositories, setRepositories] = useState([]);
        {repositories.map(repository => (
           <li key={repository.id}>
              {repository.title}
+
           <button onClick={() => handleRemoveRepository(1)}>
             Remover
           </button>
@@ -47,3 +48,4 @@ const [repositories, setRepositories] = useState([]);
     </div>
     );
        }     
+       export default App;
