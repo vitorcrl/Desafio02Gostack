@@ -55,16 +55,13 @@ Use state retorna um array com duas posições
 
 2. funcao para atualizar esse valor.
 
-Imutabilidade:Nao e possivel alterar o formato de sua variavel, ou seja n'ao pode incluir ou alterar informacoes. Para fazer isso e necessario recriar a informacao com suas alteracoes feitas.
-
-percorrendo o array de projetos e copiando os dados, conceito de imutabilidade.
-
-a rota Cons [e para retornar algum item, se nao retornar nao precisa.
+- Imutabilidade:Nao e possivel alterar o formato de sua variavel, ou seja n'ao pode incluir ou alterar informacoes. Para fazer isso e necessario recriar a informacao com suas alteracoes feitas.Percorrendo o array de projetos e copiando os dados, conceito de imutabilidade.
+A rota Cons, serve para retornar algum item, se nao retornar nao precisa.
 
 ## React Props
 
 Essa função é um componente React válido porque aceita um único argumento de objeto “props” (que significa propriedades) com dados e retorna um elemento React. Nós chamamos esses componentes de “componentes de função” porque são literalmente funções JavaScript.
 
-Use efffect disparar funcoes sempre que uma informacao for alterada,
+Use efffect disparar funcoes sempre que uma informacao for alterada.
 
 sempre comecar um estado com o mesmo tipo que a informacao armazenada no estado anterior
