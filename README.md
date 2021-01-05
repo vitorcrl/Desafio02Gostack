@@ -1,3 +1,6 @@
+![https://fiqueemcasa.nic.ifrn.edu.br/img/servicos/rock.png](https://fiqueemcasa.nic.ifrn.edu.br/img/servicos/rock.png)
+
+
 # ⭐Desafio02 Gostack
 Este repositório contem o desafio 2 de ReactJS, do Bootcamp da RocketSeat. Contém algumas notas sobre as linguagens utilizadas no desafio.
 # ⭐O que é React?
