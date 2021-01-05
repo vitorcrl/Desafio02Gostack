@@ -1,13 +1,13 @@
-# Desafio02Gostack
+#⭐ Desafio02 Gostack
 Este repositório contem o desafio 2 de ReactJS, do Bootcamp da RocketSeat. Contém algumas notas sobre as linguagens utilizadas no desafio.
-# O que é React?
+# ⭐O que é React?
 
 - Bibliioteca para construção de interfaces.
 - Construção de single-pages-aplications.
 - Tudo fica dentro do JavaScript.
 - React ReactJs React native.
 
-## Vantagens
+##⭐ Vantagens
 
 - Organizacao de codigo.
 - Componentizacao: pode separar partes da pagina que tem uma logica isolada.
@@ -20,7 +20,7 @@ Front-end:Somente representação da interface.
 - Caracteristica de API REST, multiplos clientes(somente um backend para inumeros clientes como web, mobile etc.).
 - Programação declarativa.
 
-## JSX
+##⭐ JSX
 
 - Junção de JavaScrip com XML(sintaxe do HTML), assim escrever HTML dentro do documento em JS.
 
@@ -31,7 +31,7 @@ Front-end:Somente representação da interface.
 - imperativo, dar os passos do processo solicitado
 - declarativo, fornecer uma descrição do solicitado
 
-## Babel/Webpack
+##⭐ Babel/Webpack
 
 - Babel:Converter(transpilar) o codigo do React para que o Bowser entenda.
 - WebPack:Para cada tipo de arquivo(.js, .css, .png) converter o codigo de uma maneira diferente.
@@ -41,7 +41,7 @@ Front-end:Somente representação da interface.
 
 ### Fragment:<> </> pode criar um container para envolver 2 ou mais componentes sem modificar a DOM
 
-# Conceitos do React:(para dominar)
+#⭐ Conceitos do React:(para dominar)
 
 - Propriedade: passar a informação de um componente pai para um filho.
 
@@ -58,7 +58,7 @@ Use state retorna um array com duas posições
 - Imutabilidade:Nao e possivel alterar o formato de sua variavel, ou seja n'ao pode incluir ou alterar informacoes. Para fazer isso e necessario recriar a informacao com suas alteracoes feitas.Percorrendo o array de projetos e copiando os dados, conceito de imutabilidade.
 A rota Cons, serve para retornar algum item, se nao retornar nao precisa.
 
-## React Props
+##⭐ React Props
 
 Essa função é um componente React válido porque aceita um único argumento de objeto “props” (que significa propriedades) com dados e retorna um elemento React. Nós chamamos esses componentes de “componentes de função” porque são literalmente funções JavaScript.
 
